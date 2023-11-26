@@ -1,5 +1,5 @@
 # 轴承转动数据集故障预测
-![img.png](img.png)
+![img.png](assets/img.png)
 ## 环境准备
 
 ```bash
@@ -11,7 +11,7 @@ pip install -r requirements.txt
 ```
 
 ## 数据集
-![img_1.png](img_1.png)
+![img_1.png](assets/img_1.png)
 数据集参数:
 
 | 采样频率 | 转速 | 位置   | 状态 |
