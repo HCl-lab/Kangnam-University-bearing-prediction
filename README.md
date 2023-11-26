@@ -1,5 +1,5 @@
 # 轴承转动数据集故障预测
-
+![img.png](img.png)
 ## 环境准备
 
 ```bash
@@ -11,16 +11,16 @@ pip install -r requirements.txt
 ```
 
 ## 数据集
-
+![img_1.png](img_1.png)
 数据集参数:
-
 
 | 采样频率 | 转速 | 位置   | 状态 |
 | -------- | ---- | ------ | ---- |
 | 50kHz    | 600  | 内圈   | N    |
 | 50kHz    | 800  | 外圈   | N    |
 | 50kHz    | 1000 | 滚动体 | N    |
-| 路径:    |      |        |      |
+
+路径:
 ```
 - data
   - ib600_2.csv
@@ -45,4 +45,8 @@ python main.py
 ```
 
 ## 引用
+> Li K, Ping X, Wang H, et al. Sequential fuzzy diagnosis method for motor roller bearing in variable operating conditions based on vibration analysis[J]. Sensors, 2013, 13(6): 8013-8041.
+>
 > https://zhuanlan.zhihu.com/p/641503381
+> 
+> https://link.zhihu.com/?target=https%3A//pan.baidu.com/s/1zB4TUovv7U4k-DZfuokQPQ
