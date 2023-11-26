@@ -1,3 +1,11 @@
-# 忽略权重和数据集
-*.pth
+# 忽略所有的 CSV 文件
 *.csv
+
+# 忽略所有的 PTH 文件
+*.pth
+
+# 忽略 .idea 文件夹
+.idea/
+
+# 忽略 Python 编译生成的 __pycache__ 目录
+__pycache__/
